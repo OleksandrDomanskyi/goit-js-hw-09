@@ -59,3 +59,7 @@ button:focus {
   background-color:gold;
   color: blue;
 }
+
+.form input{
+  display: inline-block;
+}
