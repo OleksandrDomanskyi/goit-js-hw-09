@@ -1,6 +1,5 @@
 import flatpickr from "flatpickr";
 import "flatpickr/dist/flatpickr.min.css";
-require("flatpickr/dist/themes/material_blue.css");
 
 import Notiflix from 'notiflix';
 
