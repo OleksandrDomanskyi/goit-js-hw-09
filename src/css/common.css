@@ -16,3 +16,46 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+
+  font-size: 36px;
+  font-weight: bold;
+  color: red;
+}
+
+input {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-size: 16px;
+  padding: 10px;
+  font-weight: bold;
+  border-color: darkgreen;
+}
+
+button {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 22px;
+  font-size: 16px;
+  padding: 10px 32px;
+  color:gold;
+  background-color: blue;
+  font-weight: bold;
+  margin-top: 30px;  
+}
+
+button:hover,
+button:focus {
+  background-color:gold;
+  color: blue;
+}
